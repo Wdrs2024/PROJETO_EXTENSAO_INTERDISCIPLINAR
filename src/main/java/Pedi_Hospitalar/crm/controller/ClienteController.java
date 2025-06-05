@@ -20,7 +20,7 @@ public class ClienteController {
         return clienteService.salvar(cliente);
     }
 
-    // ✅ GET para listar todos os clientes (isso resolve seu problema!)
+
     @GetMapping
     public List<Cliente> listarClientes() {
         return clienteService.listarTodos();
